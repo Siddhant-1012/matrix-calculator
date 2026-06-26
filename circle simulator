@@ -18,7 +18,7 @@ ax.set_aspect('equal')
 particle1,= ax.plot([], [], 'o')
 particle2,= ax.plot([], [], 'o')
 def update(frame):
-    t = frame * -0.1
+    t = frame * -0.2
     
     # Particle 1
     x1 = r*np.cos(omega*t)
